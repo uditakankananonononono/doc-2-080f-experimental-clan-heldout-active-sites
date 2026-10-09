@@ -1,0 +1,6 @@
+DOC-2-080F run (single run)
+acquire_act start UTC 2026-10-09T18:31:38Z (first attempt of acquire_act.py was killed by a tool timeout at ~23:59-00:01 IST before completing and was rerun from scratch; clans fetch completed once)
+analysis start UTC 2026-10-09T18:35:13Z, end UTC 2026-10-09T18:36:39Z
+command: python3 analysis_080f.py (exit 0; single run)
+python 3.10.12 numpy 2.2.6 pandas 2.3.3 sklearn 1.7.2 torch 2.14.1+cpu transformers 5.19.0
+Note: acquire_act.py (as locked) overwrites DATA_HASHES.tsv; the clans_raw.tsv md5 line was saved before and re-appended by hand (DATA_HASHES_clans.tsv).
