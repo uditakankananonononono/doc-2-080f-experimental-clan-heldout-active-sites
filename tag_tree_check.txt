@@ -1,0 +1,7 @@
+lock-1 tag commit: d4255c87cccffe00af1deff6c777b46ffdbe8016 tree 630a860c6a1f6f35373a117ecdbf341027738ba1
+PROTOCOL.md lock-1:6cb5f5d0329e1e2791e61d2087bd534a run:6cb5f5d0329e1e2791e61d2087bd534a
+acquire_act.py lock-1:86d76d18a30df96d93b0db4a7af4cbec run:86d76d18a30df96d93b0db4a7af4cbec
+acquire_clans.py lock-1:6fa22bc7ea319e515e0fcc96c1d8c129 run:6fa22bc7ea319e515e0fcc96c1d8c129
+build_080f.py lock-1:4a45e41871a2074eafafd44c8d6823e3 run:4a45e41871a2074eafafd44c8d6823e3
+embed_all.py lock-1:3331a4cab352879e143f61a15bf1a0e3 run:3331a4cab352879e143f61a15bf1a0e3
+analysis_080f.py lock-1:bfaf4b5004fcbaa7cfa068a918e4d2c9 run:bfaf4b5004fcbaa7cfa068a918e4d2c9
