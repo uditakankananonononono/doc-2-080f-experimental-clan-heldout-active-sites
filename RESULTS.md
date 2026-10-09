@@ -1,6 +1,16 @@
-# DOC-2-080F RESULTS - review pending (independent gate has not cleared; no claim is final)
+# DOC-2-080F RESULTS - independent gate verdict: SCOPED PASS (claim narrowed as below)
 
-Label (set mechanically by analysis_080f.py): **EMBEDDING-BEATS-LOCAL-CONTEXT-AT-NATURAL-PREVALENCE**. G1 pass, G2 pass, G2b pass. Prior art: residue-level functional signal in protein language models is known; this is a replication-style measurement with a 35M model, not a novelty claim.
+Label (set mechanically by analysis_080f.py): **EMBEDDING-BEATS-LOCAL-CONTEXT-AT-NATURAL-PREVALENCE** (as emitted; the label NAME is superseded by the scoped claim and note below). G1 pass, G2 pass, G2b pass.
+
+## Scoped claim (gate verdict, verbatim)
+"Across 136 Pfam clan/family units of reviewed UniProt enzymes with experimentally evidenced (ECO:0000269) active-site annotations, a linear probe on frozen ESM-2 35M residue embeddings ranks those residues above a +-3 AA window (AUPRC 0.187 vs 0.054) and an identity-only baseline (0.037) under 5-fold clan-held-out evaluation with every residue scored; absolute AUPRC is low (about 1 in 5 top-ranked is a positive in the PR sense), and the lift is relative to local baselines."
+
+Label note (gate, verbatim): "The label NAME 'AT-NATURAL-PREVALENCE' overstates: 0.0057 is the prevalence inside the study population (annotated enzymes, at least 1 experimental site, at most 5 sites, up to 10 per unit, length 100-400). It is not proteome-wide prevalence, so no deployment-precision claim. Positives are the experimentally annotated sites; unannotated catalytic residues are scored as negatives."
+
+Nothing beyond this claim is made. Where the table or text below says "natural prevalence", read it as prevalence inside that study population, not proteome-wide.
+
+## Candidates for a NEW preregistered unit (not amendments to 080F)
+Items the gate listed as uncontrolled here: (1) sequence-identity-clustered holdout, (2) a conservation baseline, (3) a pretraining-overlap check, (4) multi-seed runs. None was run in 080F. Prior art: residue-level functional signal in protein language models is known; this is a replication-style measurement with a 35M model, not a novelty claim.
 
 | item | value |
 |---|---|
