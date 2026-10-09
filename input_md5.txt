@@ -1,0 +1,9 @@
+ca3c4cc9c0a99f5791417bbabc5291d8  act_raw.tsv
+d4c657eb41d131462d441b7396585268  clans_raw.tsv
+5ce5a778f6c9a4e0150472b9d9303014  proteins.tsv
+6cc4c06080e13690e3a79bde0336d2c8  res_emb.npy
+86d76d18a30df96d93b0db4a7af4cbec  acquire_act.py
+6fa22bc7ea319e515e0fcc96c1d8c129  acquire_clans.py
+bfaf4b5004fcbaa7cfa068a918e4d2c9  analysis_080f.py
+4a45e41871a2074eafafd44c8d6823e3  build_080f.py
+3331a4cab352879e143f61a15bf1a0e3  embed_all.py
